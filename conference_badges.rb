@@ -16,3 +16,6 @@ def assign_rooms(speaker_list)
   speaker_list.each {|x| new_list.push("Hello, #{x}! You'll be assigned to room #{speaker_list.index(x) + 1}!")}
   new_list
 end
+
+def printer(list)
+  list.each {|x| puts x}
