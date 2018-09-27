@@ -21,4 +21,3 @@ def printer(list)
   batch_badge_creator(list).each {|x| puts x}
 end
 
-binding.pry
