@@ -18,5 +18,5 @@ def assign_rooms(speaker_list)
 end
 
 def printer(list)
-  list.each {|x| puts x}
+  assign_rooms(list).each {|x| puts x}
 end
