@@ -20,3 +20,5 @@ end
 def printer(list)
   assign_rooms(list).each {|x| puts x}
 end
+
+binding.pry
