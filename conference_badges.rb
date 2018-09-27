@@ -19,3 +19,4 @@ end
 
 def printer(list)
   list.each {|x| puts x}
+end
